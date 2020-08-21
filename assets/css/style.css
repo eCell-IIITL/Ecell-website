@@ -1089,6 +1089,7 @@ blockquote {
   display: table;
   position: relative;
   background-size: cover;
+  opacity: 0.8;
 }
 
 .hero-max-720 {
@@ -1139,6 +1140,7 @@ blockquote {
   font-weight: 700;
   text-align: center;
   margin: 0 auto;
+  color: #ffffdd;
 }
 
 .hero-text span {
