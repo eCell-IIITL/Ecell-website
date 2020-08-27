@@ -1004,7 +1004,7 @@ blockquote {
 
 .navbar-nav > li > a,
 .slicknav_nav > li > a {
-  line-height: 30px;
+  /* line-height: 30px; */
   padding: 0 5px ;
   margin:  0 7px;
   /* font-weight: lighter; */
@@ -1022,7 +1022,7 @@ blockquote {
 .slicknav_nav li.active > a,
 .slicknav_nav .dropdown.active > a a,
 .slicknav_nav .active .active a {
-  color:rgb(4, 58, 219);
+  color:royalblue;
 }
 
 .slicknav_nav > li > a .slicknav_arrow {
