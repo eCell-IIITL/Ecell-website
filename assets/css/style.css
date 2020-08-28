@@ -1045,7 +1045,7 @@ blockquote {
 .dropdown:hover > a,
 .dropdown-menu>li>a:focus,
 .dropdown-menu li a:hover  {
-  background-color: ;
+  background-color: #fff;
   color:rgb(4, 58, 219)
 
 }
