@@ -50,10 +50,25 @@
 
 </head>
 <body>
-
+    <!-- Pre Loader -->
+    <div class="loader-wrapper">
+        <div class="wrapper">
+            <span class="circle circle-1"></span>
+            <span class="circle circle-2"></span>
+            <span class="circle circle-3"></span>
+            <span class="circle circle-4"></span>
+            <span class="circle circle-5"></span>
+            <span class="circle circle-6"></span>
+            <span class="circle circle-7"></span>
+            <span class="circle circle-8"></span>
+        </div>
+    </div>
+      <!-- Preloader ends -->
+      
+      
     <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(59,58,54,0); border-bottom-color: rgba(226,226,226,0);" data-top-bottom="background: rgba(59,58,54,1); border-bottom-color: rgba(226,226,226,1);">
 
-        <nav id="primary-navigation" class="site-navigation">
+        <nav>
 
             <div class="container-fluid">
 
@@ -63,7 +78,7 @@
 
                 </div>
 
-                <div class="main-menu" id="perfect-navbar-collapse">
+                <div class="main-menu">
 
                     <ul class="nav navbar-nav navbar-right">
 
@@ -87,7 +102,7 @@
 
         <div class="hero-text">
             <h1 style="color:#ffffdd">E-CELL IIIT LUCKNOW</h1>
-            <h1 style="color:#ffffdd; height: 69px; text-align:left;display:inline;margin-left:40vw;" id="typed"></h1>
+            <h1 id="typed"></h1>
         </div>
         <div class="hero-arrow">
             <a class="scrollTo" href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
@@ -327,7 +342,18 @@
         </div>
 
     </footer>
-
+<!-- PRE LOADER SCRIPT -->
+    <script>
+        window.addEventListener('load',function(){
+            var x=document.getElementsByClassName("loader-wrapper");
+            console.log(x[0]);
+            x[0].classList.add("zzzz");
+        });
+            // setTimeout(function(){
+                    
+            // },2000);
+    </script>
+    
     <script>
         var typed = new Typed('#typed', {
         strings:["INITIATE","INCUBATE","ELEVATE"],
