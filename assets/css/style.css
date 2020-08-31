@@ -63,6 +63,7 @@ body{
 }
 .zzzz{
   z-index:-1 !important;
+  transition: z-index 1s;
 }
 .circle{
   display: inline-block;
