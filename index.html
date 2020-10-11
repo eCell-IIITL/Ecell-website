@@ -50,10 +50,25 @@
 
 </head>
 <body>
-
+    <!-- Pre Loader -->
+    <div class="loader-wrapper">
+        <div class="wrapper">
+            <span class="circle circle-1"></span>
+            <span class="circle circle-2"></span>
+            <span class="circle circle-3"></span>
+            <span class="circle circle-4"></span>
+            <span class="circle circle-5"></span>
+            <span class="circle circle-6"></span>
+            <span class="circle circle-7"></span>
+            <span class="circle circle-8"></span>
+        </div>
+    </div>
+      <!-- Preloader ends -->
+      
+      
     <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(59,58,54,0); border-bottom-color: rgba(226,226,226,0);" data-top-bottom="background: rgba(59,58,54,1); border-bottom-color: rgba(226,226,226,1);">
 
-        <nav id="primary-navigation" class="site-navigation">
+        <nav>
 
             <div class="container-fluid">
 
@@ -63,15 +78,15 @@
 
                 </div>
 
-                <div class="main-menu" id="perfect-navbar-collapse">
+                <div class="main-menu">
 
                     <ul class="nav navbar-nav navbar-right">
 
-                        <li class="right-nav-links"><a href="index.html">Home</a></li>
-                        <li class="active right-nav-links"><a href="about-us.html">About Us</a></li>
+                        <li class="active right-nav-links"><a href="index.html">Home</a></li>
+                        <li class="right-nav-links"><a href="about-us.html">About Us</a></li>
                         <li class="right-nav-links"><a href="teams.html">Teams</a></li>
-                        <li class="right-nav-links"><a href="https://ecell-iiitl.github.io/Start-the-buckup/">Events</a></li>
-                        <li class="right-nav-links"><a href="contact.html">Contact</a></li>
+                        <li class="right-nav-links"><a href="https://start-the-buck-up.netlify.app/">Events</a></li>
+                        <li class="right-nav-links"><a href="contact.html">Contact Us</a></li>
 
                     </ul>
 
@@ -86,8 +101,8 @@
     <div class="hero background-overlay img">
 
         <div class="hero-text">
-            <h1>E-CELL IIIT LUCKNOW</h1>
-            <h1 style="color:#4169E1; height: 69px; text-align:left;display:inline;margin-left:40vw;" id="typed"></h1>
+            <h1 style="color:#ffffdd">E-CELL IIIT LUCKNOW</h1>
+            <h1 id="typed"></h1>
         </div>
         <div class="hero-arrow">
             <a class="scrollTo" href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
@@ -294,10 +309,10 @@
                     <div class="mb-xs-20">
                         <h4 class="small-title">Important Links</h4>
                         <ul class="list-unstyled">
+                            <li><a href="https://iiitl.ac.in/">IIIT Lucknow</a></li>
                             <li><a href="about-us.html">About Us</a></li>
                             <li><a href="teams.html">Teams</a></li>
                             <li><a href="contact.html">Contact</a></li>
-                            <li><a href="https://iiitl.ac.in/">IIIT Lucknow</a></li>
                         </ul>
                     </div>
 
@@ -327,7 +342,18 @@
         </div>
 
     </footer>
-
+<!-- PRE LOADER SCRIPT -->
+    <script>
+        window.addEventListener('load',function(){
+            var x=document.getElementsByClassName("loader-wrapper");
+            console.log(x[0]);
+            x[0].classList.add("zzzz");
+        });
+            // setTimeout(function(){
+                    
+            // },2000);
+    </script>
+    
     <script>
         var typed = new Typed('#typed', {
         strings:["INITIATE","INCUBATE","ELEVATE"],

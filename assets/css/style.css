@@ -1,5 +1,6 @@
 
 /*
+*- PRE LOADER
 * - CUSTOM RESETS
     - Buttons
     - Forms
@@ -32,6 +33,89 @@
 } */
 
 
+/* PRE LOADER STARTS */
+body{
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  text-align: center;
+  height:100vh;
+  font-family: 'lato';
+  font-weight: 100;;
+}
+.wrapper{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%); 
+}
+.loader-wrapper{
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.zzzz{
+  z-index:-1 !important;
+  transition: z-index 1s;
+}
+.circle{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #000080;
+  border-radius: 50%;
+  animation: loading 1.5s cubic-bezier(.8, .5, .2, 1.4) infinite;
+  transform-origin: bottom center;
+  position: relative;
+}
+@keyframes loading{
+  0%{
+    transform: translateY(0px);
+    background-color: #00B0FF;
+  }
+  50%{
+    transform: translateY(50px);
+    background-color: #6953FS;
+  }
+  100%{
+    transform: translateY(0px);
+    background-color: #73C2FB;
+  }
+}
+.circle-1{
+  animation-delay: 0.1s;
+}
+.circle-2{
+  animation-delay: 0.2s;
+}
+.circle-3{
+  animation-delay: 0.3s;
+}
+.circle-4{
+  animation-delay: 0.4s;
+}
+.circle-5{
+  animation-delay: 0.5s;
+}
+.circle-6{
+  animation-delay: 0.6s;
+}
+.circle-7{
+  animation-delay: 0.7s;
+}
+.circle-8{
+  animation-delay: 0.8s;
+}
+
+
+/* PRE LOADER ENDS */
 
 .gradient{
   /* background: rgb(34,227,223); */
@@ -1004,7 +1088,7 @@ blockquote {
 
 .navbar-nav > li > a,
 .slicknav_nav > li > a {
-  line-height: 30px;
+  /* line-height: 30px; */
   padding: 0 5px ;
   margin:  0 7px;
   /* font-weight: lighter; */
@@ -1022,7 +1106,7 @@ blockquote {
 .slicknav_nav li.active > a,
 .slicknav_nav .dropdown.active > a a,
 .slicknav_nav .active .active a {
-  color:rgb(4, 58, 219);
+  color:royalblue;
 }
 
 .slicknav_nav > li > a .slicknav_arrow {
@@ -1045,7 +1129,7 @@ blockquote {
 .dropdown:hover > a,
 .dropdown-menu>li>a:focus,
 .dropdown-menu li a:hover  {
-  background-color: ;
+  background-color: #fff;
   color:rgb(4, 58, 219)
 
 }
@@ -1083,12 +1167,13 @@ blockquote {
 /* HERO
 ================================================== */
 .hero {
-  background: url(../img/we-are-creative.jpg) center no-repeat;
+  background: url(../img/bulb-min.jpg) center no-repeat;
   height: 100%;
   width: 100%;
   display: table;
   position: relative;
   background-size: cover;
+
 }
 
 .hero-max-720 {
@@ -1096,12 +1181,12 @@ blockquote {
 }
 
 .hero-about-us {
- background-image: url(../img/about-us.jpg);
+ background-image: url(../img/whychooseus.jpg);
  background-size: center cover;
 }
 
 .hero-contact {
- background-image: url(../img/contact-2.jpg);
+ background-image: url(../img/contact_us.jpg);
  background-size: center cover;
 }
 
@@ -1139,6 +1224,7 @@ blockquote {
   font-weight: 700;
   text-align: center;
   margin: 0 auto;
+  color: #ffffdd;
 }
 
 .hero-text span {
@@ -2269,6 +2355,12 @@ a.post-title:hover,
   font-size:45px;
   color:black;
 }
+#typed{
+  color:#ffffdd;
+  height: 69px; 
+  text-align:left;
+  display:inline;
+}
 
 /* ========================================================================================================================= */
 
@@ -2413,3 +2505,32 @@ a.post-title:hover,
   );
   border-radius: 5px;
 }
+
+
+
+
+/* ============================================================================== */
+
+.our-team {
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+
+  
+/*   
+  min-height: 200px;
+  width: 50vw;
+  margin: 100px auto;
+  background: white;
+  border-radius: 5px; */
+}
+
+/* 
+body {
+  background: #EEF2F7;
+} */
