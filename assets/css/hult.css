@@ -255,3 +255,19 @@
   background: #6a6970;
   color: white;
 }
+
+/* contact Button */
+.contact_btn {
+  background-color: #EA008A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_btn .btn {
+  margin: 20px;
+}
+
+.bt {
+  padding-top: 10px;
+}
