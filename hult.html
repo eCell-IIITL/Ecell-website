@@ -7,13 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+
   <link rel="stylesheet" href="css/hult.css">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>HULT Prize | E-CELL IIIT Lucknow</title>
 
@@ -33,45 +34,70 @@
 
 
 <body>
-  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#" style="width:20%"><img src="assets/img/"></a>
-      <div id="nav-icon" class="">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#incentives">Incentives</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#launching">Launch</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#process">Process</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#competing">How to Compete</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#faq">FAQ's</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link compete" href="https://hultprize-oncampus.org/#/application-form" target="_blank">Apply Now</a>
-          </li>
-        </ul>
-      </div>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg">
+    <a href="#" class="navbar-brand"><img class="hult-logo" src="assets/img/hult.png" width="190" height="50"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Event</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Prize</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Compete</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAQ</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right school-social-links">
+        <li><a href="https://www.facebook.com/hultnith" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/istenith" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/company/iste-nith" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://instagram.com/hultistenith?igshid=hi41m76ryat2" target="_blank"><i class="fa fa-instagram"></i></a></li>
+      </ul>
     </div>
   </nav>
-  <section>
-    <img src="assets/img/hultlogo.png" class="w3-image w3-greyscale-min" style="width:100%">
-  </section>
+
+  
+
+
+  <div class="overlay" id="overlay">
+    <!-- <div id="banner" class="banner container-fluid" style="background-image:url(assets/img/E-cell-Bird.png); height:70px; width:180px;top:30%; z-index:4000;">
+    </div> -->
+    <div id="images-top">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-lg-6" style="left:10%">
+          <img class="text-center" src="assets/img/Hultprize.png" width="270" height="130">
+        </div>
+        <div class="hidden-sm hidden-xs col-md-6 col-lg-6 text-center" style="padding-top:10%; left:160%">
+          <img class="text-center" src="assets/img/oncampus.png" width="250" height="60">
+        </div>
+      </div>
+    </div>
+    <div id="text-top">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-lg-12 text-center">
+          <p class="welcome">Welcome to Hult Prize</p>
+        </div>
+        <div class="col-md-12 col-sm-12 col-lg-12 text-center">
+          <p class="school-name">IIIT Lucknow</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <section class="w3-grey">
-    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1000px" id="band">
       <h2 class="w3-wide"><strong>Program process</strong></h2>
       <p class="w3-opacity"><strong>HULT 2020</strong></p>
       <p class="w3-justify">The Hult Prize Foundation transforms how young people envision their own possibilities as leaders of change in the world around them. With a US$1,000,000 global startup prize as its anchor activity, the Hult Prize has
@@ -101,6 +127,7 @@
     </div>
   </section>
 
+
   <section>
 
     <div class="container">
@@ -111,8 +138,7 @@
       </p>
 
     </div>
-
-
+    
   </section>
 
   <section>
@@ -122,6 +148,7 @@
 
 
   </section>
+
   <section>
 
     <div class="container">
@@ -167,10 +194,9 @@
 
 
     </div>
-
-
-
   </section>
+  
+  
   <section>
     <h1 Align="CENTER"><strong>Apply here</strong></h1>
   </section>
@@ -185,47 +211,25 @@
 
             <a id="twitter" href="" target="_blank" rel="noopener"><i class="icon icon-twitter" aria-hidden="true"></i><br></a>
 
-            <a id="youtube" href="" target="_blank" rel="noopener"><i class="icon icon-youtube-play" aria-hidden="true"></i><br></a>
 
-            <a id="linkedin" href="" target="_blank" rel="noopener"><i class="icon icon-linkedin" aria-hidden="true"></i><br></a>
-
-            <a id="instagram" href="" target="_blank" rel="noopener"><i class="icon icon-instagram" aria-hidden="true" style="font-size: 17px; padding: 0;"></i><br></a>
-          </div>
-        </div>
-        <div class="col-12 offset-md-3 col-md-3 links">
-          <p><b>Quicklinks</b></p>
-          <p><a target="_blank" href="http://www.hultprize.org">HultPrize.org</a>
-            <br><a target="_blank" href="">About</a>
-            <br><a target="_blank" href="">Ecell IIITL</a>
-            <br><a target="_blank" href=""></a>
-            <br><a target="_blank" href="">Media</a>
-          </p>
-        </div>
-        <div class="col-12 col-md-3 links">
-          <p><b>Programs</b></p>
-          <p><a target="_blank" href="http://www.hultprize.org/challenge/">Hult Prize Flagship Competition</a>
-            <br><a target="_blank" href="http://www.hultprize.org/regionals/">Hult Prize Regionals</a>
-            <br><a target="_blank" href="http://www.hultprize.org/on-campus/">Hult Prize on Campus</a>
-            <br><a target="_blank" href="http://www.hultprize.org/accelerator/">Hult Prize Accelerator</a>
-          </p>
-        </div>
-        <div class="col-12 col-md-3 subscribe">
-
-        </div>
-      </div>
+  <section>
+    <div class="contact_btn">
+      <a href="https://forms.gle/SWFdhBHzHkdLmvWG8" type="button" class="btn btn-primary btn-lg">Apply for Hult</a>
+      <a href="https://t.me/joinchat/UzLH7EWBqTJHjxjRi_Ea5A" type="button" class="btn btn-secondary btn-lg">Contact us</a>
     </div>
 
-    <p class="copyright">© Hult Prize. All Rights Reserved.</p>
-  </footer> -->
+  </section> -->
+
+
+
+
   <div class="container-fluid text-center text-md-left" id="footer">
     <div class="row">
+
 
       <div class="col-md-4 mt-md-3 mt-3">
         <img class="mb-6" src="assets/img/Hultprize.png" alt="" width="212" height="101">
       </div>
-
-
-
 
 
 
@@ -291,7 +295,7 @@
       </div>
 
     </div>
-      <p class="copyright hp-gray-color2">© Hult Prize. All Rights Reserved.</p>
+    <p class="copyright hp-gray-color2">© Hult Prize. All Rights Reserved.</p>
   </div>
 </body>
 
