@@ -1,5 +1,55 @@
-
 /* ///////////////////////////////////////////////////////////////////// */
+#p1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  color: #c62a88;
+  text-align: center;
+  padding-bottom: 10px;
+  line-height: 42px;
+}
+
+#p2 {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+  color: #3C4144;
+  text-align: center;
+  line-height: 42px;
+}
+
+#p3 {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 35px;
+  color: #c62a88;
+  font-weight: 700;
+  text-align: center;
+  line-height: 42px;
+}
+
+#about_p1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  color: #c62a88;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  line-height: 42px;
+}
+
+#faq_p1{
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: #3C4144;
+  line-height: 42px;
+}
+
+#faq_p2{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 17px;
+  color: #3C4144;
+  line-height: 35px;
+}
+
 
 .navbar-nav.school-social-links>li>a {
   color: #EA008A;
@@ -36,7 +86,6 @@
   color: #EA008A;
   background-color: #ffffff;
 }
-
 
 /* contact Button */
 .contact_btn {
@@ -98,16 +147,16 @@
 
 .school-name {
   font-size: 42px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: #E6007F;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .welcome {
   font-size: 42px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: #FFFFFF;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 /*--footer--*/
@@ -122,7 +171,7 @@
 }
 
 .img_hult {
-  left: 3.4%;
+  left: 1%;
 }
 
 :root {
@@ -137,19 +186,6 @@
   --hp-vine: #841452;
   --hp-vine-clear: #aa1267;
   --hp-vine-dark: #631343;
-}
-
-/* General Principal Fonts  */
-.hp-general-font {
-  font-family: var(--hp-light) !important;
-}
-
-.hp-medium-font {
-  font-family: var(--hp-light-italic) !important;
-}
-
-.hp-bold-font {
-  font-family: var(--hp-black) !important;
 }
 
 /* General Principal Colors Letters */
@@ -189,38 +225,32 @@
   font-size: 25px !important;
 }
 
-
 .copyright {
   padding-top: 10px;
   display: flex;
   justify-content: center;
 }
 
-
-
-  h1 {
-    font-size: 52px;
-    background: -webkit-linear-gradient(#ef1586, #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
+h1 {
+  font-size: 52px;
+  background: -webkit-linear-gradient(#ef1586, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 75%;
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 75%;
 }
 
 .fa:hover {
-    opacity: 0.7;
-    background-color: #ef1586;
-
-
+  opacity: 0.7;
+  background-color: #ef1586;
 }
 
 .fa-facebook {
@@ -282,11 +312,11 @@
 
 .btn-apply:hover {
   border-bottom-right-radius: 50px;
-   border-top-left-radius: 50px;
-   border-bottom-left-radius: 10px;
-   border-top-right-radius: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.hg:hover{
+.hg:hover {
   background-color: #EA008A;
 }
